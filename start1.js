@@ -60,15 +60,31 @@
 // console.log(myintrostring)
 // document.write(myintrostring)
 
-var age = 32;
+// var age = 32;
 
-if(age<18){
-    console.log("go to school")
-}
-else if(age>18 && age<35){
-    console.log("go to office")
-}
-else{
-    console.log("go to mandir")
-}
+// if(age<18){
+//     console.log("go to school")
+// }
+// else if(age>18 && age<35){
+//     console.log("go to office")
+// }
+// else{
+//     console.log("go to mandir")
+// }
 
+// let age = 15;
+// if(age<18){
+//     console.log("go to school")
+// }
+// else if(age>18 && age<40){
+//     console.log("go to office")
+// }
+// else{
+//     console.log("go to mandir")
+// }
+
+let myintrostring = `my name is aspyraza 
+i am 21 years old`
+console.log("myintrostring")
+document.write("myintrostring")
+ 
