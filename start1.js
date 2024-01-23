@@ -83,8 +83,87 @@
 //     console.log("go to mandir")
 // }
 
-let myintrostring = `my name is aspyraza 
-i am 21 years old`
-console.log("myintrostring")
-document.write("myintrostring")
+// let myintrostring = `my name is aspyraza 
+// i am 21 years old`
+// console.log("myintrostring")
+// document.write("myintrostring")
  
+
+// let ll=10;
+// let ul=100;
+
+// for(let num=ll ;num<ul ;num++)
+// {
+//     let count=0;
+//     for(let div=2;div<= num-1;div++)
+//     {
+//         if(num%div == 0){
+//             count++
+//         }
+//     }
+    
+//     if(count>0){
+//         console.log("not prime number",num);
+//     }
+//     else{
+//         console.log("prime number", num)
+//     }
+// }
+
+// let ll=100;
+// let ul=5000;
+
+// for(let num=ll;num<ul;num++)
+// {
+//     let count=0;
+//     for(let div=2; div <= num-1;div++)
+//     {
+//         if(num%div == 0)
+//         {
+//             count++
+//         }
+//     }
+
+//     if(count>0){
+//         console.log("not prime",num);
+//     }
+//     else{
+//         console.log("prime num"), num;
+//     }
+// }
+
+// let num= 7;
+// let count=0
+
+// for(let div=2; div <= num ; div++)
+// {
+//     if(num%div == 0)
+//     {
+//         count++
+//     }
+//     if(count>2){
+//         console.log("not prime",num);
+//     }
+//     else{
+//         console.log("prime", num);
+//     }
+// }
+
+// for(let i=1; i<=10;i=i+1){
+//     for(let j=1; j<=20;j=j+1){
+//         console.log(1,j);
+//         break;
+//     }
+// }
+
+let i=1;
+while(1<=10){
+    for(let j=1; j<=5; j++){
+        for(let k=1; k<=15;k++){
+            console.log("i,j,k");
+            break
+        }
+    }
+    i=i+1
+}
+console.log("loop se bahar")
