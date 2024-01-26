@@ -156,14 +156,213 @@
 //     }
 // }
 
-let i=1;
-while(1<=10){
-    for(let j=1; j<=5; j++){
-        for(let k=1; k<=15;k++){
-            console.log("i,j,k");
-            break
-        }
+// let i=1;
+// while(1<=10){
+//     for(let j=1; j<=5; j++){
+//         for(let k=1; k<=15;k++){
+//             console.log("i,j,k");
+//             break
+//         }
+//     }
+//     i=i+1
+// }
+// console.log("loop se bahar")
+
+// let ll=1;
+// let ul=500;
+
+// for(let num=1; num<500; num++)
+// {
+//     let count=0;
+//     for(let div=2; div<=num-1;div++){
+//         if(num%div == 0){
+//             count++
+//         }
+//     }
+//     if(count>0){
+//         console.log("not prime",num);
+//     }
+//     else{
+//         console.log("prime number");
+//     }
+// }
+
+// let i=7;
+// let count=0;
+
+// for(let i=1;i<=20;i++){
+//     count++
+//     break
+// }
+// if(count>0){
+//      console.log("not a prime");
+// }
+// else{
+//     console.log("prime number");
+// }
+
+// let i=1;
+// while(i<=10)
+// {
+    
+//     for(let j=1;j<=5; j++){
+//         for(let k=1;k<=15; k++){
+//             console.log(i,j,k);
+//             break;
+//         }
+//     }
+//     i=i+1
+
+// }
+// console.log("loop se bahar");
+
+
+
+// let num = 10;
+// let count = 0;
+// for (let div=2;div<=num;div++)
+// {
+//     if (num%div==0)
+//     {
+//         count++;
+        
+
+//     }
+// }
+// if(count>2)
+// {
+//     console.log("not prime ",num);
+// }
+// else 
+// {
+//     console.log("prime ",num)
+// }
+
+// let i=7;
+// let count=0;
+
+// for(let div=2;div<=i;div++)
+// {
+//     if(i%div == 0){
+//         count++;
+    
+//     }
+
+// }
+// if(count>2){
+//     console.log("not prime",i);
+// }
+// else{
+//     console.log("prime number",i);
+// }
+
+// let num=101;
+// let count=0;
+
+// for(let div=2; div<=num; div++)
+// {
+//     if(num%div == 0){
+//         count++
+//     }
+// }
+// if(count>2){
+//     console.log("not prime",num);
+// }
+// else{
+//     console.log("prime",num);
+// }
+
+// let ll=1;
+// let ul=12;
+// let count=0;
+// for(let num=ll; num<=ul; num++){
+    
+//     for(let div=2; div<=num-1; div++){
+//         if(num%div == 0)
+//         {
+//             count++
+//         }
+//     }
+//     if(count>0){
+//     console.log("not prime",num);
+// }
+// else{
+//     console.log("prime",num);
+// }
+// }
+
+// for(let i=1; i<=100;i++)
+// {
+//     console.log(i);
+// }
+
+// let num=7;
+// let count =0;
+
+// for(let div=2; div<=num; div++)
+// {
+//     if(div%num == 0){
+//         count++
+//     }
+// }
+// if(count>2){
+//     console.log("no prime");
+// }
+// else{
+//     console.log("prime");
+// }
+
+// let ll=1;
+// let ul=100;
+// let count=0;
+// for(let num=ll;num<ul; num++)
+// {
+    
+//     for(let div=2; div<=num-1;div++)
+//     {
+//         if(num%div == 0){
+//             count++
+//         }
+//     }
+//     if(count>0){
+//         console.log("not prime",num);
+//     }
+//     else{
+//         console.log("prime",num);
+//     }
+
+// }
+
+// let i=1;
+// while (i<=10) {
+//     for(let j=1; j<=5;j++)
+//     {
+//         for(let k=1; k<=15;k++)
+//         {
+//             console.log(i,j,k);
+//             break;
+//         }
+//     }
+//     i++
+// }
+
+let num=12
+let count=0;
+
+for(let div=2;div<=num;div++)
+{
+    if(num%div == 0){
+        count++
     }
-    i=i+1
 }
-console.log("loop se bahar")
+if(count>2){
+    console.log("not prime");
+}
+else{
+    console.log("prime ");
+}
+
+
+
+
+
