@@ -346,10 +346,51 @@
 //     i++
 // }
 
-let num=12
+// let num=12
+// let count=0;
+
+// for(let div=2;div<=num;div++)
+// {
+//     if(num%div == 0){
+//         count++
+//     }
+// }
+// if(count>2){
+//     console.log("not prime");
+// }
+// else{
+//     console.log("prime ");
+// }
+
+
+// for(let i=1; i<=100; i++){
+//     console.log(i);
+// }
+
+// let ll=1;
+// let ul=100;
+// let count=0;
+
+// for(let num=ll; num<ul; num++)
+// {
+//     for(let div=2; div<=num-1; div++)
+//     {
+//         if(num%div ==0){
+//             count++
+//         }
+//     }
+//     if(count>0){
+//         console.log("not prime",num);
+//     }
+//     else{
+//         console.log("prime",num);
+//     }
+// }
+
+let num=7;
 let count=0;
 
-for(let div=2;div<=num;div++)
+for(let div=2; div<=num; div++)
 {
     if(num%div == 0){
         count++
@@ -359,7 +400,7 @@ if(count>2){
     console.log("not prime");
 }
 else{
-    console.log("prime ");
+    console.log("prime");
 }
 
 
